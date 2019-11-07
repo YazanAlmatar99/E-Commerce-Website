@@ -1,7 +1,6 @@
-
 <html lang="en">
   <head>
-
+    <title>About us</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -44,19 +43,50 @@
             <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+            <a
+              class="nav-link"
+              href="bag.html"
+              tabindex="-1"
+              aria-disabled="true"
               >Bag</a
             >
           </li>
         </ul>
+        <button
+          class="btn btn-outline-success my-2 my-sm-0"
+          onclick="window.location.href = 'catalog.html'"
+        >
+          Shop now
+        </button>
       </div>
     </nav>
-    <div class="about-section">
-        <img src="https://images.unsplash.com/photo-1564568403138-c887fa3d7b79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80">
-        <div class="about-section-text">
-            <h1 class="font-1 text-center black-text">About our perfumes</h1>
-            <p class="text-center">We make our perfumes from the best ingrediants on earth. <br> “To me, it is very important to have perfume in which it is hard to recognize a particular flower or scent. That gives a touch of mystery.”- Isabella Rossellini</p>
-        </div>
+    <div class="about-section ">
+      <button class="cto-button read-button" onclick="showAboutText()">
+        Click me
+      </button>
+      <img
+        class="about-image"
+        src="https://images.unsplash.com/photo-1564568403138-c887fa3d7b79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
+      />
+      <div class="about-section-text hide">
+        <h1 class="font-1 text-center">About our perfumes</h1>
+        <p class="text-center white-color row1">
+          We make our perfumes from the best ingrediants on earth. “To me, it is
+          very important to have perfume in which it is hard to recognize a
+          particular flower or scent. That gives a touch of mystery.”- Isabella
+          Rossellini
+        </p>
+        <p class="text-center about-text white-color row2">
+          Our perfumes are made by extracting scented oil from natural
+          ingredients. These ingredients can include various plants, fruits,
+          woods and even animal secretions. Other resources like alcohol, coal,
+          tars and petrochemicals can be used during the manufacturing process.
+          For scents that don’t occur in nature or do not produce essential
+          oils, synthetic chemicals are used to emulate the scent. Many beloved
+          scents fall into this category, so it’s likely that your favorite
+          perfume uses at least some synthetic scents.
+        </p>
+      </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 

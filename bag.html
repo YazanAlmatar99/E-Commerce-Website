@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+      <title>Bag</title>
     <script src="js/script.js"></script>
-    <title>Perfumes World</title>
+
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -62,43 +63,67 @@
         </button>
       </div>
     </nav>
-    <div class="header-section">
-      <div class="header-section-cto">
-        <h1 class="font-1 text-center">
-          Our perfume is the art that <br />makes memory speak
-        </h1>
+
+    <div class="bag-section-header">
+      <h1 class="font-1 black-text text-center">Your bag</h1>
+      <div class="items-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <div class="card item" style="width: 18rem;">
+                <img
+                  src="https://images.unsplash.com/photo-1566977776052-6e61e35bf9be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    59$
+                  </p>
+                  <button class="cto-button">Remove</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="card item" style="width: 18rem;">
+                <img
+                  src="https://images.unsplash.com/photo-1519669011783-4eaa95fa1b7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=927&q=80"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    89$
+                  </p>
+                  <button class="cto-button">Remove</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="card item" style="width: 18rem;">
+                <img
+                  src="https://images.unsplash.com/photo-1561997835-49889d0e0355?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    89$
+                  </p>
+                  <button class="cto-button">Remove</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <button
-          class="cto-button"
-          onclick="window.location.href = 'catalog.html'"
+          class="cto-button-inversed co-button"
+          onclick="window.location.href = 'checkout.html'"
         >
-          Shop now
+          Check out
         </button>
       </div>
-      <img
-        class="header-section-img"
-        src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80"
-        alt="perfume"
-      />
     </div>
-    <div class="best-seller-section"></div>
-    <p class="font-1 black-text text-center best-seller-text">
-      Our best seller
-    </p>
-    <div class="card best-seller-wrapper">
-      <img
-        src="https://images.unsplash.com/photo-1566977776052-6e61e35bf9be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
-        class="card-img-top"
-        alt="..."
-      />
-      <div class="card-body">
-        <h5 class="card-title">L'eau Laurissi 59$</h5>
-        <p class="card-text">
-          Stroll through those street markets full of old books, dig through the
-          wooden shelves of ancient libraries or lose yourself in a book.
-        </p>
-      </div>
-    </div>
-    <!-- Optional JavaScript -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
